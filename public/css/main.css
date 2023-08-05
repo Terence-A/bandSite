@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+img {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+h1 {
+  position: absolute;
+  font-size: 3rem;
+  top: 100px;
+  left: 50px;
+  color: white;
+  z-index: 1;
+}
+.enterBtn {
+  z-index: 1;
+  position: absolute;
+  left: 46%;
+  top: 75%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* margin: auto; */
+}
+.enterBtn:hover {
+  background-color: rgba(237, 248, 250, 0.753);
+}
+.sm_card {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  margin: 30px;
+
+  /* text-align: center; */
+}
+.sm_card p {
+  padding: 25px;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+footer h4 {
+  padding-top: 75px;
+  font-size: 3rem;
+}
